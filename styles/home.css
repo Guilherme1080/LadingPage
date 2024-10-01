@@ -63,3 +63,22 @@
     height: 100%;
     margin: auto;
 }
+@media screen and (max-width:600px) {
+    .banner{
+        display: none;
+    }
+    .cta{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .Home{
+        min-height: 100%;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .descricao{
+        font-size: 1.5rem;
+    }
+}
