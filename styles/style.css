@@ -6,6 +6,7 @@
 @import url('home.css');
 @import url('menu.css');
 @import url('depoimentos.css');
+@import url('carrosel.css');
 
 :root{
     --color-primary-1: #fff9ea;

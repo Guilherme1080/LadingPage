@@ -1,0 +1,47 @@
+.slider{
+    margin: 0 auto 100px;
+    width: 100vw;
+    height: 70vh;
+    padding: 0px !important;
+    overflow: hidden;
+    
+}
+.slider-content{
+    width: 400%;
+    height:auto;
+    display: flex;
+}
+.slider-content input{
+    display: none;
+}
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+.slide-box img{
+    width: 100vw;
+}
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    top: 110%;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid orange;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-top: 10px;
+}
+.nav-manual .manual-btn:hover{
+    background-color: orange;
+}
